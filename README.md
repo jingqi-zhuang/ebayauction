@@ -1,6 +1,6 @@
 # Key Factors Driving Auction Competitiveness on eBay
 
-<img src="images/Ebay.png" style="zoom:50%;" />
+<img src="images/Ebay.png" style="width:40%;" />
 
 One of the primary goals for sellers on e-market platforms like eBay is to attract potential buyers and enhance listing competitiveness. In this project, we utilized **Decision Trees** to identify and visualize key factors influencing auction competitiveness, uncovering insights that drive higher bidding activity and engagement for listed products.
 
@@ -14,7 +14,7 @@ To prepare the data, categorical features were converted into dummy variables, a
 
 The first classification tree utilizes all predictors with default parameters. While all predictors are included in the model, only **OpenPrice, ClosePrice, sellerRating, and Category_Automotive** were selected as significant factors influencing auction competitiveness.
 
-<img src="/Users/apple/Desktop/ebay/images/first-tree.png" style="zoom:150%;" />On the test set, the decision tree achieves a classification accuracy of **83%**. The confusion matrix below provides a detailed breakdown of the model’s performance in distinguishing competitive and non-competitive auctions.
+<img src="images/first-tree.png" style="width:150%;" />On the test set, the decision tree achieves a classification accuracy of **83%**. The confusion matrix below provides a detailed breakdown of the model’s performance in distinguishing competitive and non-competitive auctions.
 
 |                  | Predict False | Predict True |
 | :--------------: | :-----------: | :----------: |
@@ -32,7 +32,7 @@ To optimize the model’s performance, we conducted a grid search with **5-fold 
 - minimum impurity decrease: 0.004
 - minimum sample splits: 5
 
-<img src="images/second-tree.png" style="zoom:67%;" />
+<img src="images/second-tree.png" style="width:67%;" />
 
 ### 3.2 Plotting Tree on a Scatter Plot
 
@@ -43,7 +43,7 @@ Most of the splits are influenced by two primary quantitative predictors: **Sell
 
 By plotting these predictors on a scatter plot and visualizing the split lines determined by the model, we can assess the effectiveness of the splits.
 
-<img src="/Users/apple/Desktop/ebay/images/scatterplot.png" style="zoom:150%;" />
+<img src="images/scatterplot.png"/>
 
 - Auctions with lower OpenPrice are generally more competitive, as lower starting prices often attract more bidders. 
 - Auctions with lower SellerRating tend to be more competitive, possibly due to buyers being willing to take a chance on less established sellers for better deals. 
