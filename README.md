@@ -1,8 +1,9 @@
 # Key Factors Driving Auction Competitiveness on eBay
 
+**What makes an online auction stand out?**
+
 <img src="images/Ebay.png" style="width:40%;" />
 
-**What makes an online auction stand out?**
 
 In the crowded world of e-commerce, sellers constantly compete for attention. Understanding what drives competitive bidding can mean the difference between a quick sale and a stagnant listing.
 
