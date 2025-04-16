@@ -2,7 +2,11 @@
 
 <img src="images/Ebay.png" style="width:40%;" />
 
-One of the primary goals for sellers on e-market platforms like eBay is to attract potential buyers and enhance listing competitiveness. In this project, we utilized **Decision Trees** to identify and visualize key factors influencing auction competitiveness, uncovering insights that drive higher bidding activity and engagement for listed products.
+**What makes an online auction stand out?**
+
+In the crowded world of e-commerce, sellers constantly compete for attention. Understanding what drives competitive bidding can mean the difference between a quick sale and a stagnant listing.
+
+One of the primary goals for sellers on e-market platforms like eBay is to attract potential buyers and enhance listing competitiveness. In this project, we utilized Decision Trees to identify and visualize key factors influencing auction competitiveness, uncovering insights that drive higher bidding activity and engagement for listed products.
 
 ## Step 1: Data Preprocessing
 
